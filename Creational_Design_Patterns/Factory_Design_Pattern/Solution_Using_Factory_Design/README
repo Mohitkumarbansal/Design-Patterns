@@ -1,0 +1,4 @@
+Here we can client only needs to import one library which is VehicleFactory so client does not need to worry about
+anything , he just needs to give argument to VehicleFactory class it will create approproate vehicle and will return the object of the appropriate class
+
+Also user dont need to add those if and else conditions in client.cc
