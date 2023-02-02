@@ -1,0 +1,5 @@
+1) As we can see here Car and Bike classes getting inherited from vehicle class and we are adding the header files of bike.hh and car.hh
+2)inside the client.cc , so if we dont add "bike.hh" include inside the Client.cc then our client will not be able to create the object of the class Bike , 
+3) so if our client wants to have truck inside the library then if we add the truck class as well then again our client need to have truck.hh inside client.cc so it is like a headache to the client that everytim client has to do multiple changes inside the client.cc
+
+So to overcome this problem only We have Factory-Design-Pattern
